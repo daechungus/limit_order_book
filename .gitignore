@@ -1,0 +1,49 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+limit_order_manager
+limit_order_manager.exe
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling files
+gmon.out
+*.prof
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp_test.csv
+
+# Log files
+*.log
+benchmark.log
+
+# Results directory
+results/
+
+# Generated data files
+data/generated_*.txt
+data/test_*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo 
